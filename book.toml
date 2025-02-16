@@ -1,0 +1,26 @@
+[book]
+authors = ["Maximilian Andreas Heinrich"]
+language = "de"
+multilingual = false
+src = "src"
+title = "Metamorphosen"
+
+[output.html]
+additional-css = ["./theme/catppuccin.css", "./theme/mdbook-admonish.css"]
+default-theme = "latte"
+preferred-dark-theme = "macchiato"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+[preprocessor.katex]
+after = ["links"]
+
+[preprocessor.github-authors]
+command = "mdbook-github-authors"
+
+[preprocessor.reading-time]
+words-per-minute = 100
+
+[preprocessor.embed]
