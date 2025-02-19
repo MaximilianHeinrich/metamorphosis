@@ -1,7 +1,5 @@
 # Aufgabe 2
 
-Daphne ist eine Frau, genauso wie Finn, er muss den Abwasch machen :)
-
 ## Daphne als Stalkingopfer
 
 ```admonish info
